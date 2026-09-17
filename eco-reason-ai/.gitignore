@@ -1,0 +1,3 @@
+data/knowledge.sqlite3
+__pycache__/
+*.pyc

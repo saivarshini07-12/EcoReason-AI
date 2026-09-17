@@ -1,0 +1,2 @@
+# Backend uses Python's standard library; Streamlit provides the local UI.
+streamlit>=1.40,<2
