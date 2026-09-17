@@ -67,9 +67,3 @@ python3 -m unittest -v
 ## Database and CI/CD
 
 The service has no third-party runtime dependency, so it can run on a minimal Python container or platform-as-a-service. A CI job should run `python3 -m unittest -v` on Python 3.11-3.14 and fail on test errors. For deployment, expose port 8000 behind a TLS reverse proxy and persist `data/knowledge.sqlite3`; rebuild that file whenever the reviewed source dataset changes. No credentials are required for the local demo.
-
-## Submission links
-
-- GitHub repository: add the final repository URL here before submitting the Word document.
-- Live demo: add the deployed URL here if deployed.
-- Review notes: `GET /sources` makes the knowledge layer and cited source metadata directly inspectable.
